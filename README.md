@@ -49,10 +49,10 @@ mv ~/.config/fastfetch.bak.<timestamp> ~/.config/fastfetch
 curl -fsSL https://raw.githubusercontent.com/AEKO-kl/blade-fetch/main/transparency.sh | bash
 ```
 
-Choose the opacity (1 = opaque, 0.5 = very transparent, default 0.85):
+Choose the opacity (1 = opaque, 0.5 = very transparent, default 0.65):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/AEKO-kl/blade-fetch/main/transparency.sh | bash -s -- 0.6
+curl -fsSL https://raw.githubusercontent.com/AEKO-kl/blade-fetch/main/transparency.sh | bash -s -- 0.65
 ```
 
 Remove it:
