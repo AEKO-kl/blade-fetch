@@ -5,9 +5,6 @@ A [fastfetch](https://github.com/fastfetch-cli/fastfetch) config with a pink-and
 ![screenshot](screenshot.png)
 
 
-![screenshot](screenshot2.png)
-
-
 ## Install
 
 ```bash
@@ -48,6 +45,13 @@ mv ~/.config/fastfetch.bak.<timestamp> ~/.config/fastfetch
 
 
 ## Transparent terminal (optional, kitty)
+
+
+![screenshot](screenshot2.png)
+
+
+
+
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/AEKO-kl/blade-fetch/main/transparency.sh | bash
