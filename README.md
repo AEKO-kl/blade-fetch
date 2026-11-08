@@ -4,6 +4,10 @@ A [fastfetch](https://github.com/fastfetch-cli/fastfetch) config with a pink-and
 
 ![screenshot](screenshot.png)
 
+
+![screenshot](screenshot2.png)
+
+
 ## Install
 
 ```bash
@@ -49,10 +53,10 @@ mv ~/.config/fastfetch.bak.<timestamp> ~/.config/fastfetch
 curl -fsSL https://raw.githubusercontent.com/AEKO-kl/blade-fetch/main/transparency.sh | bash
 ```
 
-Choose the opacity (1 = opaque, 0.5 = very transparent, default 0.65):
+Choose the opacity (1 = opaque, 0.5 = very transparent, default 0.6):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/AEKO-kl/blade-fetch/main/transparency.sh | bash -s -- 0.65
+curl -fsSL https://raw.githubusercontent.com/AEKO-kl/blade-fetch/main/transparency.sh | bash -s -- 0.6
 ```
 
 Remove it:
