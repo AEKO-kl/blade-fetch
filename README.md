@@ -1,4 +1,4 @@
-# blade-fetch# blade-fetch
+# blade-fetch
 
 A [fastfetch](https://github.com/fastfetch-cli/fastfetch) config with a pink-and-white ASCII logo and a framed layout.
 
