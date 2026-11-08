@@ -52,7 +52,7 @@ curl -fsSL https://raw.githubusercontent.com/AEKO-kl/blade-fetch/main/transparen
 Choose the opacity (1 = opaque, 0.5 = very transparent, default 0.85):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/AEKO-kl/blade-fetch/main/transparency.sh | bash -s -- 0.7
+curl -fsSL https://raw.githubusercontent.com/AEKO-kl/blade-fetch/main/transparency.sh | bash -s -- 0.6
 ```
 
 Remove it:
