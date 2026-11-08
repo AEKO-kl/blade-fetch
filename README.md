@@ -41,3 +41,25 @@ mv ~/.config/fastfetch.bak.<timestamp> ~/.config/fastfetch
 
 - `fastfetch/ascii.txt`: the logo, with ANSI color codes. Edit it with `cp`, not by copy-pasting text, or the invisible escape characters are lost.
 - `fastfetch/config.jsonc`: modules, colors and frame layout.
+
+
+## Transparent terminal (optional, kitty)
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/AEKO-kl/blade-fetch/main/transparency.sh | bash
+```
+
+Choose the opacity (1 = opaque, 0.5 = very transparent, default 0.85):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/AEKO-kl/blade-fetch/main/transparency.sh | bash -s -- 0.7
+```
+
+Remove it:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/AEKO-kl/blade-fetch/main/transparency.sh | bash -s -- --off
+```
+
+Your `kitty.conf` is backed up before each change. With `dynamic_background_opacity` enabled you can also change the opacity live: `Ctrl+Shift+A` then `M` / `L` (more / less opaque).
+
